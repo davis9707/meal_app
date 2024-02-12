@@ -47,17 +47,17 @@ import 'package:meals/providers/filters_provider.dart';
 ### Screenshot Examples of the project
 
 # Categories 
-<img src="lib/assets/categories.png" alt="Alt text" style="height:200px; width:400px;">
+<img src="lib/assets/categories.png" alt="Alt text" style="width:400px;">
 
 
 # Meals
-<img src="lib/assets/meals.png" alt="Alt text" style="height:200px; width:400px;">
+<img src="lib/assets/meals.png" alt="Alt text" style=" width:400px;">
 # Meals Detail Page 
-<img src="lib/assets/meal_detail.png" alt="Alt text" style="height:200px; width:400px;">
+<img src="lib/assets/meal_detail.png" alt="Alt text" style=" width:400px;">
 # Favorites Page 
-<img src="lib/assets/favorites.png" alt="Alt text" style="height:200px; width:400px;">
+<img src="lib/assets/favorites.png" alt="Alt text" style=" width:400px;">
 # Side Drawer 
-<img src="lib/assets/side-drawer.png" alt="Alt text" style="height:200px; width:400px;">
+<img src="lib/assets/side-drawer.png" alt="Alt text" style=" width:400px;">
 # Filters Page 
-<img src="lib/assets/filters.png" alt="Alt text" style="height:200px; width:400px;">
+<img src="lib/assets/filters.png" alt="Alt text" style=" width:400px;">
 
