@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:meals/pages/categories.dart';
 import 'package:meals/pages/filters.dart';
 import 'package:meals/pages/meals.dart';
-import 'package:meals/providers/meals_provider.dart';
+
 import 'package:meals/widgets/main_drawer.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:meals/providers/favorites_provider.dart';

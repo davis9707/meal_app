@@ -6,7 +6,6 @@ import 'package:meals/providers/meals_provider.dart';
 
 class MealDetail extends ConsumerWidget {
   const MealDetail({super.key, required this.meal});
-
   final Meal meal;
 
   @override
@@ -29,14 +28,29 @@ class MealDetail extends ConsumerWidget {
                           ? 'Meal added as a favorite'
                           : 'Meal removed')));
                 },
-                icon: Icon(isFavorite ? Icons.star : Icons.star_border))
+                icon: AnimatedSwitcher(
+                  duration: const Duration(microseconds: 300),
+                  transitionBuilder: (child, animation) {
+                    return RotationTransition(
+                      turns: Tween(begin: 0.5, end: 1.0).animate(animation),
+                      child: child,
+                    );
+                  },
+                  child: Icon(
+                    isFavorite ? Icons.star : Icons.star_border,
+                    key: ValueKey(isFavorite),
+                  ),
+                ))
           ],
         ),
         body: SingleChildScrollView(
           child: Column(
             children: [
-              Image.network(meal.imageUrl,
-                  width: double.infinity, height: 300, fit: BoxFit.cover),
+              Hero(
+                tag: meal.id,
+                child: Image.network(meal.imageUrl,
+                    width: double.infinity, height: 300, fit: BoxFit.cover),
+              ),
               const SizedBox(height: 14),
               Text(
                 'Ingredients',
