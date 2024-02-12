@@ -51,13 +51,13 @@ import 'package:meals/providers/filters_provider.dart';
 
 
 # Meals
-![Alt text](lib/assets/meals.png){:height="200px" width="400px"}
+<img src="lib/assets/meals.png" alt="Alt text" style="height:200px; width:400px;">
 # Meals Detail Page 
-![Alt text](lib/assets/meal_detail.png){:height="200px" width="400px"}
+<img src="lib/assets/meal_detail.png" alt="Alt text" style="height:200px; width:400px;">
 # Favorites Page 
-![Alt text](lib/assets/favorites.png){:height="200px" width="400px"}
+<img src="lib/assets/favorites.png" alt="Alt text" style="height:200px; width:400px;">
 # Side Drawer 
-![Alt text](lib/assets/side-drawer.png){:height="200px" width="400px"}
+<img src="lib/assets/side-drawer.png" alt="Alt text" style="height:200px; width:400px;">
 # Filters Page 
-![Alt text](lib/assets/filters.png){:height="200px" width="400px"}
+<img src="lib/assets/filters.png" alt="Alt text" style="height:200px; width:400px;">
 
