@@ -1,7 +1,7 @@
 # Meals_App
 # What is covered in this project 
--Dummy Data for Meals and Categories 
--Gridview for the List of Categories
+- Dummy Data for Meals and Categories 
+- Gridview for the List of Categories
 - Stack Wdiget User
 - Tab Based Navigation 
 - Side Drawer Usage in the project
