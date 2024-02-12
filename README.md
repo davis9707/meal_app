@@ -47,7 +47,8 @@ import 'package:meals/providers/filters_provider.dart';
 ### Screenshot Examples of the project
 
 # Categories 
-![Alt text](lib/assets/categories.png){:height="200px" width="400px"}
+<img src="lib/assets/categories.png" alt="Alt text" style="height:200px; width:400px;">
+
 
 # Meals
 ![Alt text](lib/assets/meals.png){:height="200px" width="400px"}
